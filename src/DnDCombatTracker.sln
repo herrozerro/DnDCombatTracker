@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDCombatTracker.Forms", "DnDCombatTracker.Forms\DnDCombatTracker.Forms.csproj", "{E6D72DE7-073A-42CB-B4ED-2787B0BB9747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDCombatTracker.Core", "DnDCombatTracker.Core\DnDCombatTracker.Core.csproj", "{5287EE3A-F653-40B0-B82C-5D0A42B74DA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnDCombatTracker.Core", "DnDCombatTracker.Core\DnDCombatTracker.Core.csproj", "{5287EE3A-F653-40B0-B82C-5D0A42B74DA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDCombatTracker.Core.Tests", "DnDCombatTracker.Core.Tests\DnDCombatTracker.Core.Tests.csproj", "{EA2D8A6E-0751-4D3D-B7DA-373B83A296A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5287EE3A-F653-40B0-B82C-5D0A42B74DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5287EE3A-F653-40B0-B82C-5D0A42B74DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5287EE3A-F653-40B0-B82C-5D0A42B74DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA2D8A6E-0751-4D3D-B7DA-373B83A296A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2D8A6E-0751-4D3D-B7DA-373B83A296A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2D8A6E-0751-4D3D-B7DA-373B83A296A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2D8A6E-0751-4D3D-B7DA-373B83A296A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
